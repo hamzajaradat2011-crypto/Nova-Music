@@ -1,0 +1,28 @@
+{
+  "entities": {
+    "playlists": {
+      "title": "Playlists",
+      "description": "User custom playlists synced across Web and APK",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "trackIds": { "type": "array", "items": { "type": "string" } },
+        "createdAt": { "type": "number" }
+      },
+      "required": ["id", "title"]
+    },
+    "tracks": {
+      "title": "Tracks",
+      "description": "User tracks metadata synced across Web and APK",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "artist": { "type": "string" }
+      },
+      "required": ["id", "title"]
+    }
+  }
+}

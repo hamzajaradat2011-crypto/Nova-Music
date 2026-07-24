@@ -1,0 +1,6 @@
+{
+  "name": "Nova Music",
+  "description": "Samsung Galaxy One UI 7 flagship music ecosystem with offline audio/video playback, Web Audio EQ & Visualizer, Mood AI, Trip Packs, Smart Downloads, Private Vault, and Media Analyzer.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
